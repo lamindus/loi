@@ -3,12 +3,24 @@
     flex-direction: column;
 }
 .nav{
-    height: 7vh;
+    height: 7%;
     display: flex;
     justify-content: space-around;
 }
+.nav_logo{
+    flex 2;
+
+}
+.nav_logo__img{
+    height: 100%;
+    width: auto;
+}
 .nav_menu{
+    flex: 2;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.nav_basket{
+    flex: 1;
 }
