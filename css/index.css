@@ -3,17 +3,18 @@
     flex-direction: column;
 }
 .nav{
-    height: 7%;
     display: flex;
     justify-content: space-around;
+    max-height: 100px;
+    padding: 5px 0;
 }
 .nav_logo{
-    flex 2;
-
+    flex: 2;
+    text-align: center;
 }
 .nav_logo__img{
-    height: 100%;
-    width: auto;
+    height: 60px;
+    max-width: 100%;
 }
 .nav_menu{
     flex: 2;
@@ -22,5 +23,12 @@
     align-items: center;
 }
 .nav_basket{
-    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 0.5;
+}
+.nav_basket__img{
+    height: 30px;
+    max-width: 100%;
 }
