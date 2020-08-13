@@ -1,0 +1,110 @@
+.container{
+    display: flex;
+}
+.filter{
+    flex: 1;
+    margin-right: 50px;
+    position: sticky;
+    top: 10px;
+    left: 0px;
+}
+.filter__list{
+
+}
+.filter__list-item:first-child{
+    margin-top: 0;
+}
+.filter__list-item:last-child{
+    padding-bottom: 20px;
+    border-bottom: 2px dashed grey;
+}
+.filter__list-item{
+    padding-top: 10px;
+    margin: 20px;
+    border-top: 2px dashed grey;
+}
+.result-sort{
+    flex: 4;
+}
+.result-sort__items{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item:hover{
+    box-shadow: 0px 0px 20px darkcyan;
+}
+.item__title{
+    text-align: center;
+    font-size: 18px;
+    margin: 15px 0 10px;
+}
+.item__img-box{
+    position: relative;
+}
+.item__price{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: darkgreen;
+    background-color: #00fa98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    rotate: 45deg;
+    font-size: 22px;
+    box-shadow: 0px 0px 20px rgba(46,229,157,.4);
+}
+.item__price-text{
+    rotate: -45deg;
+}
+.item__price-text span{
+    font-size: 14px;
+    margin-bottom: -5px;
+}
+.btn {
+	position: relative;
+	height: 50px;
+	line-height: 40px;
+	padding: 0 30px 0 50px;
+	margin: 0 0 20px;
+	background: linear-gradient(-135deg, #00E5FE, #4463FE);
+	border-width: 0;
+	border-radius: 50px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 18px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+}
+.btn:before {
+	content: "+";
+	position: absolute;
+	left: 5px;
+	top: 7px;
+	color: white;
+	width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 50%;
+	background: transparent;
+	transition: .3s ease-in-out;
+}
+.btn:hover{
+	background: linear-gradient(-45deg, #4463FE, #00E5FE);
+}
+.btn:hover:before {
+	background: white;
+	color: #24D8F7;
+}

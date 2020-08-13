@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/catalog.css">
+  </head>
+  <body>
     <header class="header">
         <nav class="nav">
           <div class="nav-logo">
             <a class="nav-logo--link" href="index.html"><img class="nav-logo--img" src="img/logo.jpg" alt=""></a>
           </div>
           <ul class="nav__menu">
-            <li class="nav__menu-item"><a class="nav__menu-item--link" href="catalog.html">Каталог</a></li>
+            <li class="nav__menu-item active-page"><a class="nav__menu-item--link" href="catalog.html">Каталог</a></li>
             <li class="nav__menu-item"><a class="nav__menu-item--link" href="deliveryANDpay.html">Доставка і оплата</a></li>
             <li class="nav__menu-item"><a class="nav__menu-item--link" href="about-us.html">Про нас</a></li>
             <li class="nav__menu-item"><a class="nav__menu-item--link" href="contacts.html">Контакти</a></li>
@@ -28,5 +30,175 @@
           </div>
         </nav>
     </header>
-</body>
+    <main class="main">
+      <div class="container">
+        <div class="filter">
+          <ul filter__list>
+            <li class="filter__list-item">Ціна:<br>
+              <label for="">від</label> <input style="width: 60px;" type="text" name="" id=""> <label for="">до</label> <input style="width: 60px;" type="text" name="" id="">
+            </li>
+            <li class="filter__list-item">Для кого:<br>
+              <input type="checkbox" name="" id=""><label for="">Дитини</label><br>
+              <input type="checkbox" name="" id=""><label for="">Дорослого</label><br>
+              <input type="checkbox" name="" id=""><label for="">Дівчини</label><br>
+              <input type="checkbox" name="" id=""><label for="">Чоловіка</label>
+            </li>
+            <li class="filter__list-item">Привід:<br>
+              <input type="checkbox" name="" id=""><label for="">День народження</label><br>
+              <input type="checkbox" name="" id=""><label for="">Просто так</label><br>
+              <input type="checkbox" name="" id=""><label for="">Побачення</label><br>
+              <input type="checkbox" name="" id=""><label for="">Новий рік</label>
+            </li>
+            <li class="filter__list-item">Колір: <br>
+              <input type="checkbox" name="" id=""><label for="">Червоний</label><br>
+              <input type="checkbox" name="" id=""><label for="">Помаранчевий</label><br>
+              <input type="checkbox" name="" id=""><label for="">Жовтий</label><br>
+              <input type="checkbox" name="" id=""><label for="">Зелений</label> <br>
+              <input type="checkbox" name="" id=""><label for="">Синій</label><br>
+              <input type="checkbox" name="" id=""><label for="">Фіолетовий</label><br>
+              <input type="checkbox" name="" id=""><label for="">Білий</label><br>
+              <input type="checkbox" name="" id=""><label for="">Чорний</label>
+            </li>
+          </ul>
+        </div>
+        <div class="result-sort">
+          <div class="result-sort__items">
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло</h3>
+              <button class="btn">Додати</button>
+
+            </div>
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло і тьолок</h3>
+              <button class="btn">Додати</button>
+
+            </div>
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло</h3>
+              <button class="btn">Додати</button>
+
+            </div>
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло</h3>
+              <button class="btn">Додати</button>
+
+            </div>
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло</h3>
+              <button class="btn">Додати</button>
+
+            </div>
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло</h3>
+              <button class="btn">Додати</button>
+
+            </div>
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло</h3>
+              <button class="btn">Додати</button>
+
+            </div>
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло</h3>
+              <button class="btn">Додати</button>
+
+            </div>
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло</h3>
+              <button class="btn">Додати</button>
+
+            </div>
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло</h3>
+              <button class="btn">Додати</button>
+
+            </div>
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло</h3>
+              <button class="btn">Додати</button>
+            </div>
+            <div class="item">
+              <div class="item__img-box">
+                <img class="item__img" src="img/box1.png" alt="">
+                <div class="item__price">
+                  <p class="item__price-text">649<span>грн</span></p>
+                </div>
+              </div>
+              <h3 class="item__title">Мужикам бухло</h3>
+              <button class="btn">Додати</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      &copy; 2020. All rights reserved.
+    </footer>
+  </body>
 </html>
