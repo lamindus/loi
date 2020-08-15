@@ -29,7 +29,16 @@ time, mark, audio, video {
 body{
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
     line-height: 30px;
+    background: url('../img/bg.jpg');
+}
+button{
+    font-family: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    outline: 0;
+    border: 0;
 }
 ul{
     list-style-type: none;

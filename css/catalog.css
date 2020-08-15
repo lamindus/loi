@@ -3,13 +3,15 @@
 }
 .filter{
     flex: 1;
+    height: 900px;
+    background-color: #fff;
     margin-right: 50px;
     position: sticky;
-    top: 10px;
+    top: 30px;
     left: 0px;
-}
-.filter__list{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .filter__list-item:first-child{
     margin-top: 0;
@@ -37,9 +39,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: .5s ease;
+    background-color: #fff;
 }
 .item:hover{
-    box-shadow: 0px 0px 20px darkcyan;
+    box-shadow: 10px 8px 20px #003a00, -10px 10px 20px #003a00;
+    transform: translateY(-5px);
 }
 .item__title{
     text-align: center;
@@ -54,7 +59,7 @@
     bottom: 5px;
     left: 5px;
     color: #fff;
-    background: linear-gradient(135deg, #00e5ff, #1111aa);
+    background-color: #617a64;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +67,7 @@
     height: 100px;
     rotate: 45deg;
     font-size: 22px;
-    box-shadow: 0px 0px 20px rgba(46,229,157,.4);
+    font-weight: 700;
 }
 .item__price-text{
     rotate: -45deg;
@@ -72,39 +77,21 @@
     margin-bottom: -5px;
 }
 .btn {
-	position: relative;
-	height: 50px;
 	line-height: 40px;
-	padding: 0 30px 0 50px;
+	padding: 2px 35px;
 	margin: 0 0 20px;
-	background: linear-gradient(-135deg, #00E5FE, #4463FE);
-	border-width: 0;
-	border-radius: 50px;
-	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 18px;
-	color: white;
-	outline: none;
-	cursor: pointer;
-}
-.btn:before {
-	content: "+";
-	position: absolute;
-	left: 5px;
-	top: 7px;
-	color: white;
-	width: 36px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	border-radius: 50%;
-	background: transparent;
-	transition: .3s ease-in-out;
+	background-color: transparent;
+    font-size: 20px;
+    color: #003a00;
+    transition: .3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border: 2px solid #003a00;
+    box-shadow: 0 0 10px #003a00;
 }
 .btn:hover{
-	background: linear-gradient(-45deg, #4463FE, #00E5FE);
-}
-.btn:hover:before {
-	background: white;
-	color: #24D8F7;
+    border: 2px solid transparent;
+    color: #fff;
+    box-shadow: 0 0 0 transparent;
+    background-color: #e3b347;
 }
