@@ -263,7 +263,9 @@
   }
 .footer{
     min-height: 200px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #333;
     color: ghostwhite;
     padding: 50px;
