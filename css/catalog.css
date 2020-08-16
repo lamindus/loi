@@ -1,3 +1,6 @@
+input[type='text']{
+    border: 2px dashed #003a00;
+}
 .container{
     display: flex;
 }
