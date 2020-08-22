@@ -3,19 +3,19 @@
 	font-size: 30px;
 }
 .pay__block{
-    display: grid;
-    gap: 50px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 .pay__block-item{
-    height: 400px;
-    width: auto;
-    background-image: url('../img/card.svg');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  height: 200px;
+  width: auto;
+  background-image: url('../img/card.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .pay__block-item:nth-child(even){
-    background-image: url('../img/money.svg');
+  background-image: url('../img/money.svg');
 }

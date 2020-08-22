@@ -15,7 +15,7 @@
 .delivery__info-content{
 	margin-left: -100px;
 	flex: 1;
-	font-size: 18px;
+	font-size: 20px;
 	background-color: #617a64;
 	color: beige;
 	max-height: 300px;
@@ -62,6 +62,15 @@
 	border-left: 2px solid #e3b347;
 }
 .delivery__info-title{
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
+	margin-bottom: 20px;
+}
+.delivery__info-text{
+	list-style-type: square;
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+.delivery__info-text li{
+	margin-top: 10px;
 }

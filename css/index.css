@@ -55,8 +55,7 @@
 .registry__toreg,
 .registry__log-in{
     font-size: 18px;
-    border-radius: 30px;
-    background-color: ivory;
+    background-color: #fff;
     box-shadow: 0 8px 15px rgba(0,0,0,.1);
     border: 0;
     padding: 10px 20px;
@@ -170,7 +169,7 @@
     opacity: 0.9;
 }
 .product__item--price{
-    color: darkcyan;
+    color: #003a00;
     font-size: 28px;
     line-height: 40px;
     display: flex;
@@ -182,7 +181,7 @@
 }
 .product__item--price span{
     font-size: 20px;
-    color: skyblue;
+    color: #617a64;
 }
 .product__item--name{
     text-align: center;
@@ -191,6 +190,37 @@
     color: darkslategray;
     margin-top: 10px;
 }
+.product__item--btn{
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #003a00;
+    margin-bottom: 20px;
+    width: 200px;
+    border: 2px solid #003a00;
+    cursor: pointer;
+    position: relative;
+}
+.product__item--btn:hover{
+    border: 2px solid transparent;
+    background-color: #617a64;
+    color: #e3b347;
+}
+.product__item--btn span::before{
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/add-to-basket-trans.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product__item--btn:hover span::before{
+    background-image: url('../img/add-to-basket.svg');
+}
 .products__btn-more{
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -198,7 +228,6 @@
     color: darkcyan;
     width: 250px;
     padding: 15px 20px;
-    border-radius: 10px;
     margin: auto;
     display: inline-block;
     position: relative;
@@ -227,8 +256,6 @@
     font-size: 24px;
     background-color: rgba(255,255,255, .05);
     transform-style: preserve-3d;
-    backface-visibility: hidden;
-    border-radius: 30px;
     color: #fff;
     transition: 1s;
   }
@@ -255,7 +282,6 @@
     width: 100%;
     height: 100%;
     background: #e3b347;
-    border-radius: 30px;
     transform: translateZ(-1px);
   }
   .btnflip:hover .btnflip-item.btnflip__center {
