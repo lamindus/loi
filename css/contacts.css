@@ -41,7 +41,7 @@
 }
 .hex:before {
   content: "";
-  width: 0; 
+  width: 0;
   height: 0;
   border-bottom: 70px solid #617a64;
   border-left: 100px solid transparent;
@@ -55,6 +55,9 @@
   width: 200px;
   height: 100px;
   background-color: #617a64;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
   float: left;
   display: flex;

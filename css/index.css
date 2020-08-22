@@ -8,83 +8,6 @@
     padding-top: 40px;
     width: 70vw;
 }
-.main{
-    width: 70vw;
-    padding: 2vw;
-    margin: 0px auto 20px;
-}
-.header{
-    background-color: #fff;
-}
-.nav{
-    height: 10vh;
-    display: flex;
-    font-size: 20px;
-}
-.nav-logo{
-    flex: 0.8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.nav-logo--img{
-    max-height: 70px;
-    margin: auto 120px;
-}
-.nav__menu{
-    flex: 1.5;
-    display: flex;
-    justify-content: space-around;
-}
-.nav__menu-item{
-    margin: auto 10px;
-    white-space: nowrap;
-    border-bottom: 4px solid transparent;
-    transition: ease-in .3s;
-}
-.nav__menu-item:hover{
-    border-bottom: 4px solid #00fa98;
-}
-.active-page{
-    border-bottom: 4px solid #00fa98;
-}
-.registry{
-    flex:0.3;
-    display: flex;
-}
-.registry__toreg,
-.registry__log-in{
-    font-size: 18px;
-    background-color: #fff;
-    box-shadow: 0 8px 15px rgba(0,0,0,.1);
-    border: 0;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: .3s;
-}
-.registry__toreg:hover,
-.registry__log-in:hover{
-    background-color: #e3b347;
-    box-shadow: 0 15px 20px rgba(190, 140, 0, 0.4);
-    color: ivory;
-    transform: translateY(-5px);
-}
-.registry__log-in{
-    margin: auto 10px auto 120px;
-}
-.registry__toreg{
-    margin: auto 10px;
-}
-.basket{
-    flex:0.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.basket-link{
-    height: 40px;
-    width: 40px;
-}
 .promo{
     background-position: center;
     background-size: cover;
@@ -287,13 +210,3 @@
   .btnflip:hover .btnflip-item.btnflip__center {
     transform: rotateX(-180deg);
   }
-.footer{
-    min-height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #333;
-    color: ghostwhite;
-    padding: 50px;
-    margin-top: 100px;
-}
